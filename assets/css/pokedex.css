@@ -146,6 +146,44 @@
     border-radius: 1rem;
 }
 
+
+#backButton{
+    background-color: rgb(19, 54, 158);
+    padding: 12px;
+    border: 2px dashed #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#backButton:hover{
+    opacity: .7;
+}
+
+
+#all-details{
+    background-color: black;
+    color: #fff;
+
+    span{
+        color: #fff;
+    }
+}
+
+
+#plus-details{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    
+
+    stats{
+        background-color: #77c850;
+    }
+   
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
@@ -163,3 +201,4 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
